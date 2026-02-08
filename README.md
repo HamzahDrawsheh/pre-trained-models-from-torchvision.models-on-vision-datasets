@@ -17,6 +17,17 @@ Train and evaluate pre-trained models on image classification datasets using PyT
 - VGG16  
 - MobileNetV2  
 
+## Results
+
+The following table summarizes the **test accuracy** of each trained pre-trained model on the MNIST dataset:
+
+| Model        | Test Accuracy (%) |
+|-------------|-----------------|
+| ResNet18    | 97.90           |
+| VGG16       | 91.50           |
+| MobileNetV2 | 98.00           |
+
+
 **Key Features:**  
 - Utilizes GPU if available for faster training.  
 - Implements data transformations including resizing to 224x224 and normalization.  
